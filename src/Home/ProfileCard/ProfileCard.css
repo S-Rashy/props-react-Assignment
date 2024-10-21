@@ -1,0 +1,19 @@
+.profContainer{
+    width: 700px;
+    margin: auto;
+    border: 1px solid;
+    display: flex;
+    justify-items: center;
+    padding: 50px ;
+    background-color: hsl(90, 70%, 80%);
+    border-radius: 40px;
+
+}
+
+.profCard{
+    margin: auto;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+    gap: 30px;
+}

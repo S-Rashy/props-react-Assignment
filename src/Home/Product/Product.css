@@ -1,0 +1,12 @@
+.productContainer{
+    border: 1px solid;
+    margin: 150px auto;
+    width: 700px;
+}
+.productDiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    /* justify-content: space-between; */
+
+}
