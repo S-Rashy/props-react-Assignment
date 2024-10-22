@@ -1,0 +1,16 @@
+.props3{
+    border: 7px solid white;
+    border-radius: 15px;
+    /* height: 400px; */
+    /* width: 400px; */
+    margin: 20px;
+    padding: 40px;
+    p{
+        max-width: 350px;
+    }
+    a{
+        text-decoration: none;
+        color: blueviolet;
+        font-weight: 600;
+    }
+}
