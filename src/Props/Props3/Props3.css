@@ -1,16 +1,26 @@
 .props3{
-    border: 7px solid white;
-    border-radius: 15px;
+    border: 10px solid white;
+    border-radius: 20px;
     /* height: 400px; */
     /* width: 400px; */
     margin: 20px;
-    padding: 40px;
+    padding: 40px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     p{
         max-width: 350px;
+        margin: 5px 0px;
     }
     a{
         text-decoration: none;
-        color: blueviolet;
+        color: black;
         font-weight: 600;
+    }
+    span{
+        color: black;
+        font-size: 18px;
+
     }
 }

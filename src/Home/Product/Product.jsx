@@ -16,12 +16,12 @@ const Product = () => {
     return ( <div className="productContainer">
         <h1 id="snacks">Snacks</h1>
         <div className="productDiv">
-            <PropsTwo Image={Shawarma} ProductName="Shawarma" Price="7,500" Description="Creamy chicken shawarma"/>
+            <PropsTwo Image={Shawarma} ProductName="Shawarma" Price="7,500" Description="Creamy chicken shawarma" />
             <PropsTwo Image={Doughnut} ProductName="Doughnut" Price="6,550" Description="Box of 3 milky doughnuts"/>
             <PropsTwo Image={Eggroll} ProductName="Egg roll" Price="9,050" Description="Box of 10 Eegg roll"/>
             <PropsTwo Image={Parfait} ProductName="Parfait" Price="4,555" Description="Tasty cup of yoghurt parfait"/>
             <PropsTwo Image={Meatpie} ProductName="Meatpie" Price="10,500" Description="Box of exquisite Meatpies"/>
-            <PropsTwo Image={SmallChops} ProductName="Small Chops" Price="7,500" Description="Platter of Small Chops"/>
+            <PropsTwo Image={SmallChops} ProductName="Small Chops" Price="17,500" Description="Platter of Small Chops"/>
             <PropsTwo Image={Chickenpie} ProductName="Chicken Pie" Price="9,500" Description="Tasty chicken pie"/>
             <PropsTwo Image={ChinChin} ProductName="ChinChin" Price="6,000" Description="Jar of crunchy ChinChin"/>
             <PropsTwo Image={Cakeparfait} ProductName="Cake Parfait" Price="7,300" Description="Moist and fluffy cake parfait"/>

@@ -1,48 +1,60 @@
 .blogpost{
-    width: 1000px;
-    border: 1px solid red;
+   max-width: 1000px;
+    border-radius: 15px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 50px;
     color: white;
     background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-
-}
-.blogpost div:nth-child(1){
+    div{
+        background-repeat: no-repeat;
+    }
+} 
+.blogOne{
     grid-column: 1/span 2;
     background: url(../../assets/props3/park.jpg);
-    background-position: center;
     background-size: cover;
-    height: 400px;
-    position: relative;
+    background-position: center;
+    height: 350px;
     
 }
-.blogpost div:nth-child(2){
+.blogTwo{
     grid-row: span 2;
     background: url(../../assets/props3/park2.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
-
     background-size: contain;
     height: 600px;
 
 }
-.blogpost div:nth-child(3){
+.blogThree{
     background: url(../../assets/props3/park3.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 240px;
-
-    /* background-attachment: fixed; */
+    height: 250px;
 }
-.blogpost div:nth-child(4){
+.blogFour{
     background: url(../../assets/props3/park4.jpg);
     background-size: cover;
     background-position: center;
-    height: 240px;
+    height: 250px;
+}
+@media screen and (max-width: 800px) {
+    .blogpost{
+        background-color: rebeccapurple;
+       display: block;
+       padding: 0px;
+       
+    }
+    .blogOne, .blogTwo, .blogThree, .blogFour{
+        width: 75%;
+        height: 400px;
+        background-attachment: local;
+        padding: 20px;
+    }
+    .blogTwo{
+        background-size: cover;
+        background-position: center;
 
-    /* background-attachment: fixed; */
-
+    }
 }

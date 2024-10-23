@@ -1,11 +1,11 @@
 import "./Props3.css"
 
-const Props3 = ({Title, Time, Author, Content, Date}) => {
-    return ( <div className="props3">
+const Props3 = ({Title, Time, Author, Content, Date, blogClass }) => {
+    return ( <div className={`props3 ${blogClass}`}>
         <h1>{Title}</h1>
-        <h5>{Author} ● {Date}  ● {Time} minutes read</h5>
+        <h5><span>{Author}</span> ● {Date}  ● {Time} minutes read</h5>
         <p>{Content}</p>
-        <a href="">see more</a>
+        <a href="">See More</a>
         
 
     </div> );
