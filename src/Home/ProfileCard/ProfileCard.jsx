@@ -4,7 +4,7 @@ import Jide from "../../assets/jide.jpg"
 import Lanre from "../../assets/lanre.jpg"
 import Hamzah from "../../assets/sail-hamzah.jpg"
 import Farouq from "../../assets/farouq.jpg"
-import Taiwo from "../../assets/mit.jpg"
+import Taiwo from "../../assets/sail-mit.jpg"
 
 import "./ProfileCard.css"
 
