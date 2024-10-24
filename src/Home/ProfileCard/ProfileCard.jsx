@@ -2,7 +2,7 @@ import PropsOne from "../../Props/Props1/PropsOne"
 import Rash from "../../assets/Rash.jpg"
 import Jide from "../../assets/jide.jpg"
 import Lanre from "../../assets/lanre.jpg"
-import Hamzah from "../../assets/hamzah.jpg"
+import Hamzah from "../../assets/sail-hamzah.jpg"
 import Farouq from "../../assets/farouq.jpg"
 import Taiwo from "../../assets/mit.jpg"
 
