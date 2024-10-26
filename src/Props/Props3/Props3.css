@@ -11,7 +11,11 @@
     
     p{
         max-width: 350px;
-        margin: 5px 0px;
+        margin: 7px 0px;
+        font-weight: 600;
+    }
+    h5{
+        margin: 10px 0px;
     }
     a{
         text-decoration: none;
@@ -20,7 +24,8 @@
     }
     span{
         color: black;
-        font-size: 18px;
+        font-size: 25px;
+        font-size: 700;
 
     }
 }

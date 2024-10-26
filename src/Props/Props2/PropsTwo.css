@@ -24,12 +24,15 @@
 
     }
     button:hover{
-        background-color: hsl(318, 100%, 93%) ;
+        background-color: hsl(318, 100%, 90%) ;
 
     }
     h1{
         color: #FF5ACD ;
 
+    }
+    p{
+        font-family: sans-serif;
     }
 }
 .subproduct{

@@ -11,7 +11,7 @@ const PropsOne = (props) => {
         <div className="imgDiv">
             <img src={props.image} alt="" />
             
-            <h3>{props.Name}</h3>
+            <h4>{props.Name}</h4>
             <hr />
             <h3>Age: <span>{props.Age}</span></h3>
             <h3>Location: <span>{props.Location}</span></h3>
